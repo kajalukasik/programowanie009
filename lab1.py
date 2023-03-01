@@ -11,7 +11,7 @@
 # # print(a)
 # # print(b)
 # print(c)
-# # print(d)
+# print(d)
 # print(type(b)) # fun type sprawdza typ zmiennej
 # print("#####################")
 # z = 'Ala'
@@ -19,7 +19,7 @@
 # y = "koty"
 # zdanie = y + x + z
 # print(zdanie)
-#print(y,x,z)
+# print(y,x,z)
 # X = 2
 # Y = '2'
 # print("Zmienna X ma typ: ",type(X))
@@ -58,8 +58,17 @@
 
 ##############Zadania do wykonania, Twoje pierwsze algorytmy
 # 1. Wykonaj odejmowanie, mnożenie i dzielenie 2 dowolnych liczb
+a = 10
+b = 5
+c = a - b
+print(c)
 # 2. Oblicz wyrażenie 2x+5y   gdzie: x,y to dowolne dwie liczby które podaje użytkownik (w konsoli)
 # 3. Popraw zmienną zdanie tak aby wyświetlany był napis: "Ala ma kota"
+z = 'Ala'
+x = "ma"
+y = "kota"
+zdanie = z + x + y
+print(z,x,y)
 # 4. Wyświetl zdanie "Jestem a b mam c lat studiuję d",
 #  gdzie : a-imie, a-nazwisko, c-liczba, d-kierunek studiów są dowolne zmienne które podaje użytkownik (wczytywane z klawiatury)
 # 5. Sprawdź czy 1+2+10+20000001+4+347586970885 jest równa 321784560456434534646
@@ -67,7 +76,10 @@
 # 7. Utwórz prosty kalkulator dla 2 zmiennych podanych przez użytkownika, który obliczy: sumę, różnicę,
 # iloczyn, iloraz, potęgę tych liczb, nie zapomnij o stosownych komentarzach informacyjnych dla użytkownika.
 # 8. Oblicz wyrażenie: a = 3z-|2cos(x)sin(y)|, gdzie: x,y,z - dowolne liczby     (|x| to moduł z liczby z, użyj funkcji abs())
-
+from math import sin, cos
+a = sin(30)
+print(a)
+print(abs(a))
 # 9. Wykonaj mini ankietę tj. poproś użytkownika o następujące informacje: imie, nazwisko, wiek, zadaj mu pytania: "Czy zdrowo się odżywiasz?",
 # , "Czy lubisz sport?" i dodatkowo 3 inne własne. Po uzyskaniu wszystkich odpowiedzi wyświetl ich podsumowanie.
 # 10. Twoim zadaniem jest przygotowanie uniwersalnego i profesjonalnego życiorysu, złożonego z 10-ciu zdań, które wyświetlisz na ekranie
