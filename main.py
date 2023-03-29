@@ -1,2 +1,1 @@
-import lab_2
-
+import lab5
